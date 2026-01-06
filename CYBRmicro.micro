@@ -1,53 +1,59 @@
 # ---------------------------------------
 # CYBRmicro   micro theme (part of cybrland)
 # Project:    https://github.com/scherrer-txt/cybrland
-# Author:     scherrer-txt   |   License:     GPL-3.0
+# Author:     scherrer-txt   |   License:     GPL-3
 # Source:     ~/.config/micro/colorschemes/CYBRMmicro.micro
 # ---------------------------------------
 
-color-link cursor-line "0"
-
+# UI ELEMENTS
 color-link default "#F24848"
-color-link comment "#4d5a80"
-color-link underlined "#F24848"
-color-link todo "bold #A130F2"
-color-link error "bold #F24848,#331215"
-
+color-link cursor-line "0"
 color-link statusline "#030408,#F24848"
 color-link tabbar "#030408,#F24848"
 color-link indent-char "#4D5A80"
 color-link line-number "#631F21"
 color-link current-line-number "#F24848"
+color-link color-column "#1E2025"
 
-color-link gutter-warning "#F2D230,#332D10"
+# STRINGS
+color-link constant.string "#30F291"
+
+# CONSTANTS
+color-link constant "#F2D230"
+color-link constant.number "#F2D230"
+color-link type.keyword "#F2D230"
+color-link constant.bool "#F2D230"
+
+# COMMENTS
+color-link comment "#29BECC"
+color-link todo "#29BECC"
+
+# DEFINITIONS
+color-link identifier.class "#A130F2"
+color-link identifier.function "#A130F2"
+color-link type "#A130F2"
+
+# REST
+color-link identifier "#F24848"
+color-link identifier.var "#F24848"
+color-link statement "#F24848"
+color-link preproc "#F24848"
+color-link special "#F24848"
+color-link symbol "#F24848"
+color-link type.extended "#F24848"
+color-link underlined "#F24848"
+
+# PUNCTUATION
+color-link symbol.brackets "#4D5A80"
+color-link symbol.operator "#4D5A80"
+color-link symbol.tag "#4D5A80"
+
+# ERRORS
+color-link error "#030408,#F24848"
 color-link gutter-error "#F24848,#331215"
+color-link gutter-warning "#F2D230,#332D10"
 
+# DIFFS
 color-link diff-added "#30F291,#0C3423"
 color-link diff-modified "#F2D230,#332D10"
 color-link diff-deleted "#F24848,#331215"
-
-color-link type "#3061F2"
-color-link type.keyword "#3061F2"
-
-color-link identifier "#30F291"
-color-link identifier.class "#29BECC"
-color-link identifier.var "#F24848"
-
-color-link constant "#A130F2"
-color-link constant.number "#F2D230"
-color-link constant.string "#29BECC"
-
-color-link symbol "#F26118"
-color-link symbol.brackets "#898D99"
-color-link symbol.operator "#898D99"
-color-link symbol.tag "#898D99"
-
-color-link type "#3061F2"
-color-link type.keyword "#A130F2"
-
-color-link special "#29BECC"
-color-link statement "#F2D230"
-color-link preproc "#3061F2"
-
-color-link color-column "#44475A"
-color-link type.extended "default"
