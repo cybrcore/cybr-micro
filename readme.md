@@ -19,6 +19,7 @@
 - Make sure [Geist Mono Nerd Font](../INSTALL.md##Prerequisites&Setup) is installed
 - Make sure micro is installed: `sudo pacman -S micro`
 - See [Installation Guide](../INSTALL.md) if you haven't set up prerequisites yet
+- [Github](https://github.com/zyedidia/micro)
 
 ### 1. Create theme folder and file
 ```sh
