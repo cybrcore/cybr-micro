@@ -24,7 +24,7 @@
 ### 1. Create theme folder and file
 ```sh
 mkdir -p ~/.config/micro/colorschemes
-$EDITOR ~/.config/micro/colorschemes/CYBRMmicro.micro
+$EDITOR ~/.config/micro/colorschemes/CYBRmicro.micro
 ```
 ### 2. Insert [CYBRmicro](../micro/CYBRmicro.micro)
 ### 3. Apply theme
