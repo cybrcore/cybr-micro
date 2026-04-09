@@ -16,7 +16,7 @@ unzip GeistMono.zip -d ~/.local/share/fonts/GeistMono
 fc-cache -fv
 ```
 - Make sure micro is installed: `sudo pacman -S micro`
-- See [Installation Guide](https://github.com/cybrcore/cybrland/blob/main/INSTALL.md) if you`re coming from [cybr-hyprland](https://github.com/cybrcore/cybrland) and haven't set up prerequisites yet
+- See [Installation Guide](https://github.com/cybrcore/cybrdots/blob/main/INSTALL.md) if you're coming from [cybr-hyprland](https://github.com/cybrcore/cybr-hyprland) and haven't set up prerequisites yet
 - [micro Github](https://github.com/zyedidia/micro)
 
 ## 1. Create theme folder and file
